@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+h1#titulo{
+    color: aliceblue;
+    background-color: black;
+}
+
+.paragrafo{
+    background-color: rgba(137, 43, 226, 0.66);
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+}
+
+div{
+  text-align: center;
+}
+
+h2::before{
+    content: ">";
+}
+
+h2::after {
+    content: "<";
+}
