@@ -1,0 +1,19 @@
+:root{
+    --font1: Vedana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+}
+
+body{
+    margin: auto;
+}
+
+header{
+    background-color: black;
+    margin: auto;
+    color: white;
+    text-align: center;
+    right: auto;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
