@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* estilos mobile-first*/
+
+html {
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+body {
+    background: black url(../imagens/back-phone.jpg) no-repeat center center / cover;
+    color: rgb(8, 8, 8);
+    padding: 20px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.495);
+    margin: auto;
+    width: 70%;
+    justify-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+img#icon-phone {
+    display: block;
+}
+
+img#icon-tablet {display: none;}
+img#icon-pc {display: none;}
+img#icon-tv {display: none;}
+img#icon-print {display: none;}
